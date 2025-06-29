@@ -4,9 +4,9 @@ import Navbar from "./components/ui/Navbar";
 import Projects from "./components/ui/Projects";
 import About from "./components/ui/About";
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <Hero />
       <About />
